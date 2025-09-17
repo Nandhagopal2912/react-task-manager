@@ -1,0 +1,85 @@
+/* ===== Root container (centers content & adds padding) ===== */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white; /* ensures text is visible on dark background */
+}
+
+/* ===== Button Styles ===== */
+.sub-btn {
+  background-color: silver;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.sub-btn:hover {
+  background-color: gray;
+  color: white;
+}
+
+/* ===== Task List Styles ===== */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px 12px;
+  margin: 6px 0;
+  background: #f9f9f9;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+  color: black;
+}
+li:hover {
+  background: #f0f0f0;
+}
+
+/* Completed task styling */
+.completed {
+  text-decoration: line-through;
+  color: #999;
+  background: #e8ffe8;
+}
+
+/* Task text + delete icon */
+li span {
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+li span:hover {
+  transform: scale(1.2);
+}
+
+/* First span (task text) */
+li span:first-of-type {
+  color: green;
+}
+
+/* Last span (delete icon) */
+li span:last-of-type {
+  color: red;
+}
+
+/* ===== Input Styles ===== */
+input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+input:focus {
+  border-color: #4f46e5; /* Indigo */
+  box-shadow: 0 0 8px rgba(79, 70, 229, 0.3);
+}

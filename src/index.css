@@ -1,0 +1,21 @@
+/* ===== Global Styles ===== */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Dark theme background (default) */
+  background-color: #242424;
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;      /* Center content vertically */
+  min-height: 100vh;
+}
