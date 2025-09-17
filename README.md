@@ -6,6 +6,7 @@ This project allows users to add, mark complete, and delete tasks easily.
 ---
 
 ## 🚀 Features
+
 - ➕ Add new tasks
 - ✅ Mark tasks as completed
 - ❌ Delete tasks
@@ -15,6 +16,7 @@ This project allows users to add, mark complete, and delete tasks easily.
 ---
 
 ## 🛠️ Tech Stack
+
 - [React](https://react.dev/) (UI library)
 - [Vite](https://vitejs.dev/) (build tool)
 - CSS (for styling)
@@ -30,4 +32,4 @@ This project allows users to add, mark complete, and delete tasks easily.
 
 ## 📸 Screenshot
 
-![Task Manager Screenshot](./assests/screenshot.png)
+![Task Manager Screenshot](./src/assets/screenshot.png)
