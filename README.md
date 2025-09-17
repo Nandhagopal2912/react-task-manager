@@ -32,4 +32,4 @@ This project allows users to add, mark complete, and delete tasks easily.
 
 ## 📸 Screenshot
 
-![Task Manager Screenshot](src/assets/screenshot.png)
+![Task Manager Screenshot](src/assests/screenshot.png)
